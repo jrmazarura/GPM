@@ -39,3 +39,9 @@ The function can take 6 possible arguments, two of which are required, and the r
 
 * **corpus** - text file, which has been cleaned and loaded into Python. That is, the text should all be lowercase, all punctuation and numbers should have also been removed. 
 * **nTopics** - the number of topics.
+
+### The optional requirements are:
+
+* **alpha**, **beta** - these are the distribution specific parameters.(**The defaults for both of these parameters are 0.1.**)
+* **nTopWords** - number of top words per a topic.(**The default is 10.**)  
+* **iters** - number of Gibbs sampler iterations.(**The default is 15.**)
