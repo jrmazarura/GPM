@@ -60,7 +60,7 @@ The function provides several components of output, namely:
 
 # Example Usage:
 
-A more comprehensive [tutorial]https://github.com/CAIR-ZA/GPyM_TM/blob/master/Tutorial.ipynb) is also available.
+A more comprehensive [tutorial](https://github.com/CAIR-ZA/GPyM_TM/blob/master/Tutorial.ipynb) is also available.
 
 ### Installation;
 
