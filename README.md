@@ -45,3 +45,11 @@ The function can take 6 possible arguments, two of which are required, and the r
 * **alpha**, **beta** - these are the distribution specific parameters.(**The defaults for both of these parameters are 0.1.**)
 * **nTopWords** - number of top words per a topic.(**The default is 10.**)  
 * **iters** - number of Gibbs sampler iterations.(**The default is 15.**)
+
+## Output:
+
+The function provides several components of output, namely:
+* **psi** - topic \times word matrix.
+* **theta** - document \times topic matrix.
+* **topics** - the top words per topic. 
+
