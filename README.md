@@ -37,4 +37,5 @@ The function can take 6 possible arguments, two of which are required, and the r
 
 ### The required arguments are: 
 
-**corpus** - text file, which has been cleaned and loaded into Python. That is, the text should all be lowercase, all punctuation and numbers should have also been removed. 
+* **corpus** - text file, which has been cleaned and loaded into Python. That is, the text should all be lowercase, all punctuation and numbers should have also been removed. 
+* **nTopics** - the number of topics.
