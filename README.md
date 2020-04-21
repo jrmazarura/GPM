@@ -88,6 +88,10 @@ The output obtained appears as follows:
 
 ![Post](/Images/Post.png)
 
+# GPM
+
+The class to perform topic modelling through the use of a Poisson model is currently still under development, and will be added to the package at a later date with a updated version. 
+
 ## Built With:
 
 [Google Collab](https://colab.research.google.com/notebooks/intro.ipynb) - Web framework
