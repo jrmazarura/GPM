@@ -58,3 +58,62 @@ The function provides several components of output, namely:
 * **selected_theta**
 * **selected_psi**
 
+# Example Usage:
+
+A more comprehensive [tutorial]https://github.com/CAIR-ZA/GPyM_TM/blob/master/Tutorial.ipynb) is also available.
+
+### Installation;
+
+Run the following command within a Python command window:
+
+`pip install GPym_TM`
+
+### Implementation;
+
+Import the package into the relevant python script, with the following: 
+
+`from GSDMM import GSDMM`
+
+> Call the class:
+
+#### Possible examples of calling the function are as follows:
+
+`data_dmm = GSDMM.DMM(corpus, nTopics)`
+
+`data_dmm = GSDMM.DMM(corpus, nTopics, alpha = 0.5, beta = 0.5, nTopWords = 15, iters = 10)`
+
+### Results;
+
+The output obtained appears as follows: 
+
+![Post](/Images/Post.png)
+
+## Built With:
+
+[Google Collab](https://colab.research.google.com/notebooks/intro.ipynb) - Web framework
+
+[Python](https://www.python.org/) - Programming language of choice
+
+[Pypi](https://pypi.org/) - Distribution
+
+## Authors:
+
+[Jocelyn Mazarura](https://github.com/jrmazarura/GPM)
+
+
+## Co-Authors:
+
+[Alta de Waal](https://github.com/altadewaal)
+
+[Ricardo Marques](https://github.com/RicSalgado)
+
+
+## License:
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+## Acknowledgments:
+
+University of Pretoria 
+![Tuks Logo](/Images/UPlogohighres.jpg)
