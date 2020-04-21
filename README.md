@@ -19,10 +19,10 @@ The installation can be performed through the use of a standard 'pip' install co
 
 The package has several dependencies, namely: 
 
-* pandas
 * numpy
+* random
+* math
+* pandas
 * re
 * nltk
-* warnings
-* sklearn
-* BeautifulSoup
+* gensim
