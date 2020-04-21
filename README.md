@@ -26,3 +26,15 @@ The package has several dependencies, namely:
 * re
 * nltk
 * gensim
+
+# GSDMM
+
+## Function and class description:
+
+The class is named **GSDMM**, while the function itself is named **DMM**.
+
+The function can take 6 possible arguments, two of which are required, and the remaining 4 being optional. 
+
+### The required arguments are: 
+
+**corpus** - text file, which has been cleaned and loaded into Python. That is, the text should all be lowercase, all punctuation and numbers should have also been removed. 
