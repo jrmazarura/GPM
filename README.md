@@ -49,7 +49,12 @@ The function can take 6 possible arguments, two of which are required, and the r
 ## Output:
 
 The function provides several components of output, namely:
-* **psi** - topic \times word matrix.
-* **theta** - document \times topic matrix.
+* **psi** - topic x word matrix.
+* **theta** - document x topic matrix.
 * **topics** - the top words per topic. 
+* **assignments** - the topic numbers of selected topics only, as well as the final topic assignments.
+* **Final k** - the final number of selected topics.
+* **coherence** - the coherence score, which is a performance measure.
+* **selected_theta**
+* **selected_psi**
 
