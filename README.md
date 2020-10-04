@@ -105,11 +105,18 @@ Run the following command within a Python command window:
 
 Import the package into the relevant python script, with the following: 
 
+`from GSDMM import DMM`
 `from GPM import GPM`
 
 > Call the class:
 
-#### Possible examples of calling the function are as follows:
+#### Possible examples of calling the GSDMM function are as follows:
+
+`data_DMM = GSDMM.DMM(corpus, nTopics)`
+
+`data_DMM = GSDMM.DMM(corpus, nTopics, alpha = 0.25, beta = 0.15, nTopWords = 12, iters =5)`
+
+#### Possible examples of calling the GPM function are as follows:
 
 `data_GPM = GPM.GPM(corpus, nTopics)`
 
@@ -117,9 +124,13 @@ Import the package into the relevant python script, with the following:
 
 ### Results;
 
-The output obtained appears as follows: 
+The output obtained for the Dirichlet multinomial mixture model appears as follows: 
 
-![Post](/Images/poisson.png)
+![Post](/Images/Post.png)
+
+While, the output obtained for the Poisson model appears as follows:
+
+![poisson](/Images/poisson.png)
 
 ## Built With:
 
