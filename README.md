@@ -26,6 +26,7 @@ The package has several dependencies, namely:
 * re
 * nltk
 * gensim
+* scipy
 
 # GSDMM
 
@@ -58,6 +59,38 @@ The function provides several components of output, namely:
 * **selected_theta**
 * **selected_psi**
 
+# GPM
+
+## Function and class description:
+
+The class is named **GPM**, while the function itself is named **GPM**.
+
+The function can take 8 possible arguments, two of which are required, and the remaining 6 being optional. 
+
+### The required arguments are: 
+
+* **corpus** - text file, which has been cleaned and loaded into Python. That is, the text should all be lowercase, all punctuation and numbers should have also been removed. 
+* **nTopics** - the number of topics.
+
+### The optional requirements are:
+
+* **alpha**, **beta** and **gam** - these are the distribution specific parameters.(**The defaults for these parameters are alpha = 0.001, beta = 0.001 and gam = 0.1 respectively.**)
+* **nTopWords** - number of top words per a topic.(**The default is 10.**)  
+* **iters** - number of Gibbs sampler iterations.(**The default is 15.**)
+* **N** - this is a parameter used to normalize the document lengths, which is required for the Poisson model.
+
+## Output:
+
+The function provides several components of output, namely:
+* **psi** - topic x word matrix.
+* **theta** - document x topic matrix.
+* **topics** - the top words per topic. 
+* **assignments** - the topic numbers of selected topics only, as well as the final topic assignments.
+* **Final k** - the final number of selected topics.
+* **coherence** - the coherence score, which is a performance measure.
+* **selected_theta**
+* **selected_psi**
+
 # Example Usage:
 
 A more comprehensive [tutorial](https://github.com/CAIR-ZA/GPyM_TM/blob/master/Tutorial.ipynb) is also available.
@@ -72,25 +105,21 @@ Run the following command within a Python command window:
 
 Import the package into the relevant python script, with the following: 
 
-`from GSDMM import GSDMM`
+`from GPM import GPM`
 
 > Call the class:
 
 #### Possible examples of calling the function are as follows:
 
-`data_dmm = GSDMM.DMM(corpus, nTopics)`
+`data_GPM = GPM.GPM(corpus, nTopics)`
 
-`data_dmm = GSDMM.DMM(corpus, nTopics, alpha = 0.5, beta = 0.5, nTopWords = 15, iters = 10)`
+`data_GPM = GPM.GPM(corpus, nTopics, alpha = 0.002, beta = 0.03, gam = 0.06, nTopWords = 12, iters = 7, N = 8)`
 
 ### Results;
 
 The output obtained appears as follows: 
 
-![Post](/Images/Post.png)
-
-# GPM
-
-The class to perform topic modelling through the use of a Poisson model is currently still under development, and will be added to the package at a later date with a updated version. 
+![Post](/Images/poisson.png)
 
 ## Built With:
 
