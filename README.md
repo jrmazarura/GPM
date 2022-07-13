@@ -7,7 +7,7 @@ The aim of topic modelling is to extract latent topics from large corpora. GSDMM
 
 [1]	Yin, J. and Wang, J., 2014, August. A Dirichlet multinomial mixture model-based approach for short text clustering. In Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining (pp. 233-242).
 
-[2] Mazarura, J., de Waal, A. and de Villiers, P., 2020. A Gamma-Poisson Mixture Topic Model for Short Text. Mathematical Problems in Engineering, 2020.
+[2] [Mazarura, J., de Waal, A. and de Villiers, P., 2020. A Gamma-Poisson Mixture Topic Model for Short Text. Mathematical Problems in Engineering, 2020.](https://www.hindawi.com/journals/mpe/2020/4728095/)
 
 ## Getting Started:
 
