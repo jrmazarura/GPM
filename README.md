@@ -1,4 +1,4 @@
-# [GPyM_TM](https://github.com/jrmazarura/GPM)
+# GPyM_TM
 
 **GPyM_TM** is a Python package to perform topic modelling, either through the use of a Dirichlet multinomial mixture model, or a Poisson model. Each of the above models is available within the package in a separate class, namely GSDMM utilizes the Dirichlet multinomial mixture model, while GPM makes use of the Poisson model to perform the text clustering respectively. The package is also available on [Pypi](https://pypi.org/project/GPyM-TM/3.0.1/).
 
@@ -107,8 +107,8 @@ Run the following command within a Python command window:
 
 Import the package into the relevant python script, with the following: 
 
-`from GSDMM import DMM`
-`from GPM import GPM`
+`from GPyM_TM import GSDMM`
+`from GPyM_TM import GPM`
 
 > Call the class:
 
@@ -149,10 +149,15 @@ While, the output obtained for the Poisson model appears as follows:
 
 ## Co-Authors:
 
+I would like to extend special thank you to my colleagues:
+
 [Alta de Waal](https://github.com/altadewaal)
 
 [Ricardo Marques](https://github.com/RicSalgado)
 
+None of this would have been possible without either of you.
+
+Thank you!
 
 ## License:
 
