@@ -9,6 +9,8 @@ The aim of topic modelling is to extract latent topics from large corpora. GSDMM
 
 [2] [Mazarura, J., de Waal, A. and de Villiers, P., 2020. A Gamma-Poisson Mixture Topic Model for Short Text. Mathematical Problems in Engineering, 2020.](https://www.hindawi.com/journals/mpe/2020/4728095/)
 
+Further details about the GPM can be found in my thesis [here](https://repository.up.ac.za/handle/2263/78519).
+
 ## Getting Started:
 
 The package is available [online](https://pypi.org/project/GPyM-TM/) for use within Python 3 enviroments.
