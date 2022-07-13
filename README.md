@@ -151,7 +151,7 @@ While, the output obtained for the Poisson model appears as follows:
 
 ## Co-Authors:
 
-I would like to extend a special thank you to my colleaguesb[Alta de Waal](https://github.com/altadewaal) and [Ricardo Marques](https://github.com/RicSalgado). None of this would have been possible without either of you.
+I would like to extend a special thank you to my colleagues [Alta de Waal](https://github.com/altadewaal) and [Ricardo Marques](https://github.com/RicSalgado). None of this would have been possible without either of you.
 
 Thank you!
 
