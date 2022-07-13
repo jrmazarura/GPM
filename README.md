@@ -1,13 +1,13 @@
 # GPyM_TM
 
-**GPyM_TM** is a Python package to perform topic modelling, either through the use of a Dirichlet multinomial mixture model, or a Poisson model. Each of the above models is available within the package in a separate class, namely GSDMM utilizes the Dirichlet multinomial mixture model, while GPM makes use of the Poisson model to perform the text clustering respectively. The package is also available on [Pypi](https://pypi.org/project/GPyM-TM/3.0.1/).
+**GPyM_TM** is a Python package to perform topic modelling, either through the use of the Dirichlet multinomial mixture model (GSDMM) [1] or the [Gamma Poisson mixture model](https://www.hindawi.com/journals/mpe/2020/4728095/) (GPM) [2]. Each of the above models is available within the package in a separate class, namely GSDMM and GPM, respectively. The package is also available on [Pypi](https://pypi.org/project/GPyM-TM/3.0.1/).
 
 ## Preamble  
-The aim of topic modelling is to extract latent topics from large corpora. GSDMM [1] and GPM [2] assume each document belongs to a single topic, which is a suitable assumption for some short texts. Given an initial number of topics, K, this algorithm clusters documents and extracts the topical structures present within the corpus. If K is set to a high value, then the model will also automatically learn the number of clusters.
+The aim of topic modelling is to extract latent topics from large corpora. GSDMM [1] and GPM [2] assume each document belongs to a single topic, which is a suitable assumption for some short texts. Given an initial number of topics, K, this algorithm clusters documents and extracts the topical structures present within the corpus. If K is set to a high value, then the models will also automatically learn the number of clusters.
 
-[1]	Yin, J. and Wang, J., 2014, August. A Dirichlet multinomial mixture model-based approach for short text clustering. In Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining (pp. 233-242).
+[1]	[Yin, J. and Wang, J., 2014, August. A Dirichlet multinomial mixture model-based approach for short text clustering. In Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining (pp. 233-242)](https://dl.acm.org/doi/abs/10.1145/2623330.2623715?casa_token=lSSGu4bHw6wAAAAA:iDc8SAzLNC-zOySLwkDJBe3L17Wht7WiQe5JXVd0sy7_dEBbU10C8y8mhcidwUu_9Dl4kMhEfvE)
 
-[2] [Mazarura, J., de Waal, A. and de Villiers, P., 2020. A Gamma-Poisson Mixture Topic Model for Short Text. Mathematical Problems in Engineering, 2020.](https://www.hindawi.com/journals/mpe/2020/4728095/)
+[2] [Mazarura, J., de Waal, A. and de Villiers, P., 2020. A Gamma-Poisson Mixture Topic Model for Short Text. Mathematical Problems in Engineering, 2020](https://www.hindawi.com/journals/mpe/2020/4728095/)
 
 Further details about the GPM can be found in my thesis [here](https://repository.up.ac.za/handle/2263/78519).
 
